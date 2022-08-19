@@ -1,0 +1,7 @@
+E:\Abhishek\All_Pattern_Program\obj\Debug\All_Pattern_Program.csproj.AssemblyReference.cache
+E:\Abhishek\All_Pattern_Program\obj\Debug\All_Pattern_Program.csproj.CoreCompileInputs.cache
+E:\Abhishek\All_Pattern_Program\bin\Debug\All_Pattern_Program.exe.config
+E:\Abhishek\All_Pattern_Program\bin\Debug\All_Pattern_Program.exe
+E:\Abhishek\All_Pattern_Program\bin\Debug\All_Pattern_Program.pdb
+E:\Abhishek\All_Pattern_Program\obj\Debug\All_Pattern_Program.exe
+E:\Abhishek\All_Pattern_Program\obj\Debug\All_Pattern_Program.pdb
