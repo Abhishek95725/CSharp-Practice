@@ -1,0 +1,8 @@
+G:\Abhishek\CountPrimeArray\CountPrimeArray\bin\Debug\CountPrimeArray.exe.config
+G:\Abhishek\CountPrimeArray\CountPrimeArray\bin\Debug\CountPrimeArray.exe
+G:\Abhishek\CountPrimeArray\CountPrimeArray\bin\Debug\CountPrimeArray.pdb
+G:\Abhishek\CountPrimeArray\CountPrimeArray\obj\Debug\CountPrimeArray.csproj.AssemblyReference.cache
+G:\Abhishek\CountPrimeArray\CountPrimeArray\obj\Debug\CountPrimeArray.csproj.SuggestedBindingRedirects.cache
+G:\Abhishek\CountPrimeArray\CountPrimeArray\obj\Debug\CountPrimeArray.csproj.CoreCompileInputs.cache
+G:\Abhishek\CountPrimeArray\CountPrimeArray\obj\Debug\CountPrimeArray.exe
+G:\Abhishek\CountPrimeArray\CountPrimeArray\obj\Debug\CountPrimeArray.pdb
