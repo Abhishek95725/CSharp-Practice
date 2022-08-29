@@ -1,0 +1,8 @@
+G:\Abhishek\Jagged_Array\Jagged_Array\obj\Debug\Jagged_Array.csproj.AssemblyReference.cache
+G:\Abhishek\Jagged_Array\Jagged_Array\obj\Debug\Jagged_Array.csproj.SuggestedBindingRedirects.cache
+G:\Abhishek\Jagged_Array\Jagged_Array\obj\Debug\Jagged_Array.csproj.CoreCompileInputs.cache
+G:\Abhishek\Jagged_Array\Jagged_Array\bin\Debug\Jagged_Array.exe.config
+G:\Abhishek\Jagged_Array\Jagged_Array\bin\Debug\Jagged_Array.exe
+G:\Abhishek\Jagged_Array\Jagged_Array\bin\Debug\Jagged_Array.pdb
+G:\Abhishek\Jagged_Array\Jagged_Array\obj\Debug\Jagged_Array.exe
+G:\Abhishek\Jagged_Array\Jagged_Array\obj\Debug\Jagged_Array.pdb
