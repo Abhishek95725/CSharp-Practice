@@ -1,0 +1,8 @@
+G:\Abhishek\Special_Character_Remove\Special_Character_Remove\bin\Debug\Special_Character_Remove.exe.config
+G:\Abhishek\Special_Character_Remove\Special_Character_Remove\bin\Debug\Special_Character_Remove.exe
+G:\Abhishek\Special_Character_Remove\Special_Character_Remove\bin\Debug\Special_Character_Remove.pdb
+G:\Abhishek\Special_Character_Remove\Special_Character_Remove\obj\Debug\Special_Character_Remove.csproj.AssemblyReference.cache
+G:\Abhishek\Special_Character_Remove\Special_Character_Remove\obj\Debug\Special_Character_Remove.csproj.SuggestedBindingRedirects.cache
+G:\Abhishek\Special_Character_Remove\Special_Character_Remove\obj\Debug\Special_Character_Remove.csproj.CoreCompileInputs.cache
+G:\Abhishek\Special_Character_Remove\Special_Character_Remove\obj\Debug\Special_Character_Remove.exe
+G:\Abhishek\Special_Character_Remove\Special_Character_Remove\obj\Debug\Special_Character_Remove.pdb
