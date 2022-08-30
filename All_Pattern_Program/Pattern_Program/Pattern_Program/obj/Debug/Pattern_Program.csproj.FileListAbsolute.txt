@@ -1,0 +1,8 @@
+G:\Abhishek\Pattern_Program\Pattern_Program\bin\Debug\Pattern_Program.exe.config
+G:\Abhishek\Pattern_Program\Pattern_Program\bin\Debug\Pattern_Program.exe
+G:\Abhishek\Pattern_Program\Pattern_Program\bin\Debug\Pattern_Program.pdb
+G:\Abhishek\Pattern_Program\Pattern_Program\obj\Debug\Pattern_Program.csproj.AssemblyReference.cache
+G:\Abhishek\Pattern_Program\Pattern_Program\obj\Debug\Pattern_Program.csproj.SuggestedBindingRedirects.cache
+G:\Abhishek\Pattern_Program\Pattern_Program\obj\Debug\Pattern_Program.csproj.CoreCompileInputs.cache
+G:\Abhishek\Pattern_Program\Pattern_Program\obj\Debug\Pattern_Program.exe
+G:\Abhishek\Pattern_Program\Pattern_Program\obj\Debug\Pattern_Program.pdb
