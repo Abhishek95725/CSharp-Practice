@@ -1,0 +1,8 @@
+G:\Abhishek\Convert_Num_2_String\Convert_Num_2_String\bin\Debug\Convert_Num_2_String.exe.config
+G:\Abhishek\Convert_Num_2_String\Convert_Num_2_String\bin\Debug\Convert_Num_2_String.exe
+G:\Abhishek\Convert_Num_2_String\Convert_Num_2_String\bin\Debug\Convert_Num_2_String.pdb
+G:\Abhishek\Convert_Num_2_String\Convert_Num_2_String\obj\Debug\Convert_Num_2_String.csproj.AssemblyReference.cache
+G:\Abhishek\Convert_Num_2_String\Convert_Num_2_String\obj\Debug\Convert_Num_2_String.csproj.SuggestedBindingRedirects.cache
+G:\Abhishek\Convert_Num_2_String\Convert_Num_2_String\obj\Debug\Convert_Num_2_String.csproj.CoreCompileInputs.cache
+G:\Abhishek\Convert_Num_2_String\Convert_Num_2_String\obj\Debug\Convert_Num_2_String.exe
+G:\Abhishek\Convert_Num_2_String\Convert_Num_2_String\obj\Debug\Convert_Num_2_String.pdb
