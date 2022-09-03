@@ -1,0 +1,24 @@
+class Demo
+{
+static void Main(string [] args)
+{
+int i;
+System.Console.Write("Enter the Length");
+i=int.Parse(System.Console.ReadLine());
+char [] arr= new char[i];
+System.Console.WriteLine("Enter your char");
+int j=0;
+do
+{
+System.Console.WriteLine("Char{0}:", j);
+arr[j]= char.Parse(System.Console.ReadLine());
+j++;
+}while(j<arr.Length);
+j=arr.Length-1;
+do
+{
+System.Console.Write(arr[j]);
+j--;
+}while(j>=0);
+}
+}

@@ -1,0 +1,31 @@
+class Employee
+{
+private int empNo;
+private string empName;
+
+public Employee(int empNo, string empName)
+{
+this.empNo=empNo;
+this.empName=empName;
+}
+
+public int GetEmployeeNo()
+{
+return empNo;
+}
+public string GetEmployeeName()
+{
+return empName;
+}
+}
+class Demo
+{
+static void Main()
+{
+Employee e=new Employee(10,"JK");
+int a=e.GetEmployeeNo();
+string b=e.GetEmployeeName();
+System.Console.WriteLine(a);
+System.Console.WriteLine(b);
+}
+}

@@ -1,0 +1,20 @@
+class Demo
+{
+int Sum(int numb)
+{
+int temp, sum=0;
+while(numb>0)
+{
+temp=numb%10;
+sum=sum+temp;
+numb=numb/10;
+}
+return sum;
+}
+static void Main()
+{
+int numb=7654;
+Demo d=new Demo();
+System.Console.Write(d.Sum(numb));
+}
+}

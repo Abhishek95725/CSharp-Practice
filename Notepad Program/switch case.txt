@@ -1,0 +1,31 @@
+class Demo
+{
+static void Main(string []args)
+{
+int numb1, numb2;
+char choice;
+int ans=0;
+System.Console.Write("Enter your number1: ");
+numb1= int.Parse(System.Console.ReadLine());
+System.Console.Write("Enter your number2: ");
+numb2= int.Parse(System.Console.ReadLine());
+System.Console.Write("Enter your choice(+,-,*,/) :");
+choice=char.Parse(System.Console.ReadLine());
+switch (choice)
+{
+case '+':
+ans = numb1+numb2;
+break;
+case '-':
+ans=numb1-numb2;
+break;
+case '*':
+ans=numb1*numb2;
+break;
+case '/':
+ans= numb1/numb2;
+break;
+}
+System.Console.Write("{0}{1}{2}={3}",numb1,choice,numb2,ans);
+}
+}

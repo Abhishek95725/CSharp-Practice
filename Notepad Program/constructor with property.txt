@@ -1,0 +1,34 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp10
+{
+    class Program
+    {
+        private string programName;
+        public Program(string programName)
+        
+        {
+            this.programName = programName;
+        }
+        public string programName
+{
+get
+        {
+            return programName;
+        }
+}
+    }
+    class Demo
+    {
+        static void Main()
+        {
+        Program program = new Program("constructor");
+        string name = program.GetProgramname();
+        Console.WriteLine("name is:"+name);
+        }
+    }
+}

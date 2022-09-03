@@ -1,0 +1,28 @@
+// Do
+using System;
+class HelloWorld {
+  static void Main() {
+        int x=0;
+        do{
+               Console.WriteLine(x);
+    x++;
+        }
+     while(x<=10);
+}
+}
+// foreach
+using System;
+class HelloWorld {
+  static void Main() {
+       int[] arr = new int[5];
+       arr[0] = 11;
+       arr[1] = 22;
+       arr[2] = 33;
+       arr[3] = 44;
+       arr[4] = 55;
+       foreach(int i in arr)
+       {
+             Console.WriteLine(i);
+       }
+}
+}

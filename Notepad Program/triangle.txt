@@ -1,0 +1,27 @@
+
+class Program
+{
+    static void Main(string[] args)
+    {
+
+        int i, j;
+        for (i = 0; i < 5; i++)
+        {
+            for (j = 0; j < 5 - i; j++)
+            {
+                System.Console.Write(" ");
+            }
+            for (j = 0; j < i; j++)
+            {
+                System.Console.Write("*");
+            }
+            for (j = 1; j < i; j++)
+            {
+                System.Console.Write("*");
+            }
+
+            System.Console.WriteLine();
+        }
+        System.Console.ReadLine();
+    }
+}

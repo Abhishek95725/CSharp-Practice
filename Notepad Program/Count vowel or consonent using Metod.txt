@@ -1,0 +1,29 @@
+class Demo
+{
+void CountVowelorConsonent(char []arr)
+{
+int vowel=0, Consonent=0;
+for(int i=0; i<arr.Length; i++)
+{
+if(arr[i]=='a' || arr[i]=='e' || arr[i]=='i' || arr[i]=='o' || arr[i]=='u' ||arr[i]=='A' ||arr[i]=='E' ||arr[i]=='I' ||arr[i]=='O' ||arr[i]=='U')
+{
+vowel++;
+}
+if(arr[i]>='A' && arr[i]<='Z' || arr[i]>='a' && arr[i]<='z')
+{
+Consonent++;
+}
+}
+System.Console.Write("Total vowel :{0}", vowel);
+System.Console.Write("Total Consonent :{0}", Consonent );
+}
+static void Main()
+{
+string name;
+System.Console.Write("Enter your string: ");
+name=System.Console.ReadLine();
+char []arr= name.ToCharArray();
+Demo d=new Demo();
+d.CountVowelorConsonent(arr);
+}
+}

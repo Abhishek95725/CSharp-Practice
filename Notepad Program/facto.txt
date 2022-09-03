@@ -1,0 +1,15 @@
+class Demo
+{
+static void Main()
+{
+int i,f=1,numb;
+System.Console.Write("Enter your number: ");
+numb=int.Parse(System.Console.ReadLine());
+for(i=1; i<=numb; i++)
+{
+f=f*i;
+}
+System.Console.Write(f);
+System.Console.ReadLine();
+}
+}

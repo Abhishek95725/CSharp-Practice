@@ -1,0 +1,33 @@
+class Demo
+{
+    static int[] Sort(int[] arr)
+    {
+        int temp = 0;
+        for (int i = 0; i < arr.Length; i++)
+        {
+            for (int j = i + 1; j <arr.Length; j++)
+            {
+                if (arr[i] > arr[j])
+                {
+                    temp = arr[i];
+                arr[j] = arr[i];
+                arr[i] = temp;
+                }
+            }
+            
+        }
+        return arr;
+    }
+
+
+
+    static void Main()
+    {
+        int[] arr = { 3, 5, 7, 3, 5, 7 };
+        int[] res = Sort(arr);
+        for (int i = 0; i < res.Length; i++)
+        {
+            System.Console.Write(res[i]);
+        }
+    }
+}

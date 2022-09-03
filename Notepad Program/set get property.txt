@@ -1,0 +1,42 @@
+class Employee
+{
+private int empNo;
+private string empName;
+
+public string EmployeeName
+{
+set
+{
+empName=value;
+}
+get
+{
+return empName;
+}
+}
+public int EmployeeNo
+{
+set
+{
+empNo=value;
+}
+get
+{
+return empNo;
+}
+}
+}
+
+class Demo
+{
+static void Main()
+{
+Employee e=new Employee();
+e.EmployeeName="JK";
+string name= e.EmployeeName;
+e.EmployeeNo=10;
+int numb= e.EmployeeNo;
+System.Console.WriteLine(numb);
+System.Console.WriteLine(name);
+}
+}

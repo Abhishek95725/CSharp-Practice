@@ -1,0 +1,18 @@
+class Demo
+{
+static void Main()
+{
+for (int i = 0; i < 5; i++)
+{
+char Y = 'A';
+{
+for (int j = 5; j > i; j--)
+{
+System.Console.Write(Y);
+Y++;
+}
+System.Console.WriteLine();
+}
+}
+}
+}

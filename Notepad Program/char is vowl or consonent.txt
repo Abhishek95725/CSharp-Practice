@@ -1,0 +1,17 @@
+class Demo
+{
+static void Main(string []args)
+{
+char ch;
+System.Console.Write("Enter the char: ");
+ch=char.Parse(System.Console.ReadLine());
+if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+System.Console.Write("lower case vowel");
+else if(ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='O')
+System.Console.Write("Upper case vowel");
+else if(ch>='a'&& ch<='z' || ch>='A'&& ch<='Z')
+System.Console.Write("Consonent");
+else
+System.Console.Write("special char");
+}
+}

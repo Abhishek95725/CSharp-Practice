@@ -1,0 +1,38 @@
+class Demo
+{
+    static void Main(string[] args)
+    {
+        int i, j;
+       /* System.Console.Write("Enter the Row: ");
+        row = int.Parse(System.Console.ReadLine());
+        System.Console.Write("Enter the column: ");
+        column = int.Parse(System.Console.ReadLine());*/
+        int[,] arr = new int[3, 3];
+        System.Console.WriteLine("Enter the element: ");
+        i = 0;
+        do
+        {
+            j = 0;
+            do
+            {
+                System.Console.WriteLine("element {0}{1}:", i, j);
+                arr[i, j] = int.Parse(System.Console.ReadLine());
+                j++;
+            } while (j < 3);
+            i++;
+        } while (i < 3);
+        i = 0;
+        while (i < 3)
+        {
+            j = 0;
+            while (j < 3)
+            {
+                System.Console.Write(arr[i, j] + " ");
+                j++;
+            }
+            i++;
+            System.Console.WriteLine();
+        }
+        System.Console.ReadLine();
+    }
+}

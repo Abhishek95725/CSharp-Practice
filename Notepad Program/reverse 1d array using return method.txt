@@ -1,0 +1,32 @@
+class Demo
+{
+    static void Main(string[] args)
+    {
+        int[] arr = { 4, 567, 7, 346, 365, 9 };
+        int[] res = Reverse(arr);
+        for (int i = 0; i < res.Length; i++)
+        {
+            System.Console.Write(res[i]);
+        }
+    }
+
+
+
+
+
+
+    static int[] Reverse(int[] arr)
+    {
+      int[] arr2 = new int[arr.Length];
+
+    int j = 0;
+
+for(int i = arr.Length - 1; i >= 0; i--)
+{
+  arr2[j] = arr[i];
+  j++;
+}
+     
+     return arr2;  
+    }
+}

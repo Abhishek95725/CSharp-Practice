@@ -1,0 +1,21 @@
+class Demo
+{
+int Max(int []arr)
+{
+int h;
+h=arr[0];
+for(int i=0; i<arr.Length; i++)
+{
+if(arr[i]>h)
+h=arr[i];
+}
+return h;
+}
+static void Main()
+{
+int []arr={4,56,34,325,6,6,44,};
+Demo d= new Demo();
+System.Console.Write(d.Max(arr));
+ 
+}
+}

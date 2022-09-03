@@ -1,0 +1,20 @@
+class Demo
+{
+static void Main()
+{
+int i,numb,count=0;
+System.Console.Write("Enter youir number: ");
+numb=int.Parse(System.Console.ReadLine());
+for(i=1; i<=numb; i++)
+{
+if(numb%1==0)
+{
+count++;
+}
+}
+if(count==2)
+System.Console.Write("P");
+else
+System.Console.Write("NP");
+}
+}

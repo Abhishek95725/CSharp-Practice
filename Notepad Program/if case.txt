@@ -1,0 +1,24 @@
+class Demo
+{
+static void Main(string []args)
+{
+int numb1, numb2;
+char choice;
+int ans=0;
+System.Console.Write("Enter your number1: ");
+numb1=int.Parse(System.Console.ReadLine());
+System.Console.Write("Enter your numb2: ");
+numb2= int.Parse(System.Console.ReadLine());
+System.Console.Write("Enter your choice(+,-,*,/): ");
+choice= char.Parse(System.Console.ReadLine());
+if(choice=='+')
+ans=numb1+numb2;
+else if(choice=='-')
+ans=numb1-numb2;
+else if(choice=='*')
+ans=numb1*numb2;
+else if(choice=='/')
+ans=numb1/numb2;
+System.Console.Write(ans);
+}
+}

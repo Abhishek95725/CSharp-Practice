@@ -1,0 +1,25 @@
+class Demo
+{
+static char []Reverse(char []arr)
+{
+char[]arr1=new char[arr.Length];
+int j=0;
+for(int i=arr.Length-1; i>=0; i--)
+{
+arr1[j]=arr[i];
+j++;
+}
+return arr1;
+}
+static void Main()
+{
+System.Console.Write("Enter the Name");
+string name=System.Console.ReadLine();
+char[]arr= name.ToCharArray();
+char[]res=Reverse(arr);
+for(int i=0; i<arr.Length; i++)
+{
+System.Console.Write(res[i]);
+}
+}
+}

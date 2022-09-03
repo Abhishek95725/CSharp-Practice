@@ -1,0 +1,21 @@
+class Demo
+{
+static void Main()
+{
+int i;
+i=0;
+while(i<5)
+{
+int numb=1;
+int j=5;
+while(j>i)
+{
+System.Console.Write(numb);
+numb++;
+j--;
+}
+i++;
+System.Console.WriteLine();
+}
+}
+}

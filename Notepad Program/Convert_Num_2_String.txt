@@ -1,0 +1,10 @@
+using System;
+class Program {
+   static void Main(string[] args) {
+      String s;
+      int num = 95725;
+      s = num.ToString();
+      Console.WriteLine("String = "+s);
+      Console.ReadLine();
+   }
+}

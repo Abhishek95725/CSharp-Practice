@@ -1,0 +1,23 @@
+class Demo
+{
+    static int Sum(int numb)
+    {
+        int temp = 0;
+        int sum = 0;
+        while (numb > 0)
+        {
+            temp = numb % 10;
+            sum = sum + temp;
+            numb = numb / 10;
+        }
+        return sum;
+    }
+    static void Main()
+    {
+        int numb;
+        System.Console.Write("Enter your number");
+        numb = int.Parse(System.Console.ReadLine());
+        System.Console.Write(Sum(numb));
+    }
+}
+
