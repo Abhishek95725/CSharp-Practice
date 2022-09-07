@@ -1,0 +1,28 @@
+using System;
+
+namespace Multiple_Inheritance
+{
+    class Program
+    {
+        protected void Display()
+        {
+            Console.WriteLine("Hello Abhishek");
+        }
+    }
+    class Mix : Program
+    {
+        protected void Show()
+        {
+            Console.WriteLine("Chetu is a very popular IT company, and a huge number of employees are working here.");
+        }
+    }
+    class Demo: Mix
+    {
+        static void Main(string[] args)
+        {
+            Demo d = new Demo();
+            d.Display();
+            d.Show();
+        }
+    }
+}

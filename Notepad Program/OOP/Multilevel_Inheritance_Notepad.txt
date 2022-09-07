@@ -1,0 +1,34 @@
+using System;
+
+namespace Multilevel_Inheritance
+{
+    class Test
+    {
+        protected void Show()
+        {
+            Console.WriteLine("Dadi ji...");
+        }
+    }
+    class Demo : Test
+    {
+        protected void Display()
+        {
+            Console.WriteLine("Pita Ji...");
+        }
+    }
+            class Mix : Demo
+            {
+                protected void Process()
+                {
+                    Show();
+                    Display();
+                    Console.WriteLine("Bacha Ji...");
+                }
+
+                static void Main(string[] args)
+                {
+                    Mix m = new Mix();
+                    m.Process();
+                }
+            }
+        }

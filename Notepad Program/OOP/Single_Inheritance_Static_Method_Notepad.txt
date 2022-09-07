@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Single_Inheritance_Static_Method
+{
+    class Demo
+    {
+        private static void Abhi1()
+        {
+            Console.WriteLine("private...");
+        }
+        protected static void Abhi2()
+        {
+            Console.WriteLine("Protected...");
+        }
+        public static void Abhi3()
+        {
+            Console.WriteLine("Public...");
+        }
+        internal static void Abhi4()
+        {
+            Console.WriteLine("Internal...");
+        }
+    }
+    class Test : Demo
+    {
+        static void Main(string[] args)
+        {
+            // ------ If we create a static method then we don't create a object ...... we use child class name and call method
+
+            //   Test.Abhi1();   --------  ( We can't use the concept of private method method and variable can't be inherited )     
+            Test.Abhi2();
+            Test.Abhi3();
+            Test.Abhi4();
+        }
+    }
+}

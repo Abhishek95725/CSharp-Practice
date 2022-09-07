@@ -1,0 +1,38 @@
+using System;
+
+namespace Hierarchical_Inheritance
+{
+    class Demo
+    {
+        protected void Show()
+        {
+            Console.WriteLine("I am Father");
+        }
+    }
+    class Test : Demo
+    {
+        public void Display()
+        {
+            this.Show();
+            Console.WriteLine("I am Child-1");
+        }
+    }
+    class Mix : Demo
+    {
+        public void Display()
+        {
+            this.Show();                                      // this keyword = If you don't use this method, then the compiler by default adds this keyword.
+            Console.WriteLine("I am Child-2");
+        }
+    }
+    class Dummy
+    {
+        static void Main(string[] args)
+        {
+            Test ch1 = new Test();
+            Mix ch2 = new Mix();
+            ch1.Display();
+            ch2.Display();
+        }
+    }      
+ }

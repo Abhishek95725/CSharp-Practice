@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Single_Inheritance_Ex
+{
+    class Program
+    {
+        protected static int x = 10240;
+        protected static string str = "Abhishek";
+    }
+    class Mix : Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(Mix.x);        // when we create a static varible class then we will call the static variable through child class name
+            Console.WriteLine(Mix.str);
+        }
+    }
+}

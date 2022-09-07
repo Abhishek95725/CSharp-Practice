@@ -1,0 +1,39 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Single_Inheritance
+{
+    class Test
+    {
+       private void Abhi1()
+        {
+            System.Console.WriteLine("Private...");
+        }
+        protected void Abhi2()
+        {
+            Console.WriteLine("Protected...");
+        }
+        public void Abhi3()
+        {
+            Console.WriteLine("Public...");
+        }
+        internal void Abhi4()
+        {
+            Console.WriteLine("Internal...");
+        }
+    }
+    class Mix : Test
+    {
+       static void Main(string[] args)
+        {
+            Mix m = new Mix();
+       //   m.Abhi1();                         ----- We can't use the concept of private method method & variable can't be inherited
+            m.Abhi2();
+            m.Abhi3();
+            m.Abhi4();
+        }
+    }
+}

@@ -1,0 +1,34 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Virtual_OR_Override
+{
+    class Parent
+    {
+        protected void Property()
+        {
+            Console.WriteLine("Gold | Cash | BMW Car | Land");
+        }
+        protected virtual void Marry()
+        {
+            Console.WriteLine("Father choice");
+        }
+    }
+
+    class Child : Parent
+    {
+        protected override void Marry()
+        {
+            Property();
+            Console.WriteLine("Child Choice");
+        }
+        static void Main()
+        {
+            Child c = new Child();
+            c.Marry();
+        }
+    }
+}
