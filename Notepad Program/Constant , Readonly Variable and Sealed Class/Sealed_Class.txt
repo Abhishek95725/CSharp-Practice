@@ -1,0 +1,18 @@
+using System;
+sealed class Test
+    {
+        public void show()
+        {
+            Console.WriteLine("Hello Abhishek");
+        }
+    }
+    class Demo 
+    { 
+        static void Main(string[] args)
+        {
+            Test t = new Test();
+            t.show();
+        }
+    }
+
+// Output = Hello Abhishek

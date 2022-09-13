@@ -1,0 +1,56 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace UserDefined_DataType_AND_Overriding
+{
+    class Address
+    {
+        private int houseNo;
+        private string houseName;
+        private string pinCode;
+        public Address(int houseNo, string houseName, string pinCode)
+        {
+            this.houseNo = houseNo;
+            this.houseName = houseName;
+            this.pinCode = pinCode;
+        }
+        public override string ToString()
+        {
+            return houseNo + " " + houseName + " " + pinCode;
+        }
+    }
+    class Employee
+    {
+        private int empNo;
+        private string empName;
+        private Address empAddress;
+        public Employee(int empNo, string empName, Address empAddress)
+        {
+            this.empNo = empNo;
+            this.empName = empName;
+            this.empAddress = empAddress;
+        }
+        public void DisplayInformation()
+        {
+            Console.WriteLine("No is : " + empNo);
+            Console.WriteLine("Name is : " + empName);
+            Console.WriteLine("Address is : " + empAddress);
+        }
+    }
+    class Chetu
+    {
+        static void Main()
+        {
+            Address address = new Address(108, "Abhi Villa Apartment", "95725");
+            Employee employee = new Employee(333, "Sunny", address);
+            employee.DisplayInformation();
+        }
+    }
+}
+
+// Output: No is : 333
+//         Name is : Sunny
+//         Address is : 108 Abhi Villa Apartment 95725 

@@ -1,0 +1,15 @@
+ // readonly with static constructor
+
+    class Demo{
+        readonly static int num;    // Can Readonly variables be static? // Yes
+        static Demo()      // Static Constructor must be parameterlesss not parameterized
+        {
+            num = 100;
+        }
+        static void Main()
+        {
+            Console.WriteLine(num);
+        }
+    }
+
+// Output = 100

@@ -1,0 +1,24 @@
+using System;
+class Program
+    {
+        const int x = 10;
+       // x++;     // Compile Time Error (CTE)
+      static void Main(string[] args)
+        {
+            Console.WriteLine(x);
+        }        
+    }
+
+// Readonly Variable
+
+using System;
+    class Program1
+    {
+            readonly int num = 10;   
+            static void Main()
+        {
+            Program1 p1 = new Program1();
+            Console.WriteLine(p1.num);
+        }
+    }
+}

@@ -1,0 +1,24 @@
+using System;
+ /*
+    class Test
+    {
+        readonly int num;
+        Test(int num)  // parameterized constructor
+        {
+            this.num = num;    
+        }
+
+        static void Main(string[] args)
+        {
+            Test t = new Test(10);
+            Console.WriteLine(t.num);
+        }
+    }
+}
+    */
+
+
+    // Output = 10
+
+
+   

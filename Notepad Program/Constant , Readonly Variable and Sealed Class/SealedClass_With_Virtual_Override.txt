@@ -1,0 +1,30 @@
+using System;
+ class Grand
+    {
+      public  virtual void Marry()
+        {
+            Console.WriteLine("Grand Choice");
+        }
+    }
+    class Father : Grand
+    {
+        public sealed override void Marry()
+        {
+            Console.WriteLine("Father Choice");
+        }
+    }
+    class Child : Father
+    {
+      public new void Marry()
+        {
+            Console.WriteLine("Child Choice");
+        }
+        static void Main()
+        {
+            Grand g = new Child();
+            g.Marry();
+        }
+    }
+}
+
+// OutPut = Father Choice
